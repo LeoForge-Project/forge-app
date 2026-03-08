@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════
 
 // ── Config API (à remplir) ────────────────────────
-const ANTHROPIC_API_KEY = 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; // sk-ant-...
+const ANTHROPIC_API_KEY = 'REMPLACE_PAR_TA_CLE_API'; // sk-ant-...
 
 
 
@@ -1414,8 +1414,8 @@ window.addEventListener('DOMContentLoaded', () => {
 // ── Stripe Payment Links ──────────────────────────
 // 👉 Remplace ces URLs par tes vrais liens Stripe
 const STRIPE_LINKS = {
-  pro:   'https://buy.stripe.com/REMPLACE_PAR_TON_LIEN_PRO',
-  elite: 'https://buy.stripe.com/REMPLACE_PAR_TON_LIEN_ELITE',
+  pro:   'https://buy.stripe.com/00w5kvdQC39e1Dn7Sp1B600',
+  elite: 'https://buy.stripe.com/cNi28j13QcJO95P1u11B601',
 };
 
 function checkStripeReturn() {
