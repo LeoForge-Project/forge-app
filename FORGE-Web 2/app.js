@@ -3,7 +3,7 @@
 // ═══════════════════════════════════════════════════
 
 // ── Config API (à remplir) ────────────────────────
-const ANTHROPIC_API_KEY = 'REMPLACE_PAR_TA_CLE_API'; // sk-ant-...
+const ANTHROPIC_API_KEY = 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; // sk-ant-...
 
 
 
