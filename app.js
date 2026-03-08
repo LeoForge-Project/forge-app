@@ -1215,7 +1215,7 @@ function setPlan(plan) {
     renderSubscription(); return;
   }
   const link = STRIPE_LINKS[plan];
-  if (!link || link.includes('REMPLACE')) {
+  if (!link || link.includes('https://buy.stripe.com/00w5kvdQC39e1Dn7Sp1B600')) {
     notify('⚠️', 'Configure ton lien Stripe dans app.js ligne ~1215');
     return;
   }
