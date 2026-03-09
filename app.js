@@ -1215,7 +1215,7 @@ function setPlan(plan) {
     renderSubscription(); return;
   }
   const link = STRIPE_LINKS[plan];
-  if (!link || link.includes('https://buy.stripe.com/00w5kvdQC39e1Dn7Sp1B600')) {
+  if (!link || link.includes('REMPLACE')) {
     notify('⚠️', 'Configure ton lien Stripe dans app.js ligne ~1215');
     return;
   }
@@ -1414,8 +1414,8 @@ window.addEventListener('DOMContentLoaded', () => {
 // ── Stripe Payment Links ──────────────────────────
 // 👉 Remplace ces URLs par tes vrais liens Stripe
 const STRIPE_LINKS = {
-  pro:   'https://buy.stripe.com/REMPLACE_PAR_TON_LIEN_PRO',
-  elite: 'https://buy.stripe.com/REMPLACE_PAR_TON_LIEN_ELITE',
+  pro:   'https://buy.stripe.com/00w5kvdQC39e1Dn7Sp1B600',
+  elite: 'https://buy.stripe.com/cNi28j13QcJO95P1u11B601',
 };
 
 function checkStripeReturn() {
